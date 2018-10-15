@@ -1,0 +1,12 @@
+service: lambda-spring-cloud
+provider:
+  name: aws
+  runtime: java8
+  timeout: 10
+package:
+  artifact: target/demo-0.0.1-SNAPSHOT.jar
+functions:
+  uppercase:
+    handler: com.example.demo.SpringBootLambdaHandler
+    environment:
+      FUNCTION_NAME: uppercase
