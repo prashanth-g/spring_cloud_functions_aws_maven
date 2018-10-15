@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.prashanth.spring.cloud.aws;
 
 import java.util.function.Function;
 

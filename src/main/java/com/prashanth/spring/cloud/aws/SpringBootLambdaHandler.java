@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.prashanth.spring.cloud.aws;
 
 import org.springframework.cloud.function.adapter.aws.SpringBootRequestHandler;
 

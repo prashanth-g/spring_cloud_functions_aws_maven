@@ -1,0 +1,8 @@
+.DS_Store
+.classpath
+.project
+.serverless/
+.settings/
+.vscode/
+dependency-reduced-pom.xml
+target/

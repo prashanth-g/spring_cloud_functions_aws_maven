@@ -2,11 +2,11 @@ service: lambda-spring-cloud
 provider:
   name: aws
   runtime: java8
-  timeout: 10
+  timeout: 300
 package:
-  artifact: target/demo-0.0.1-SNAPSHOT.jar
+  artifact: target/spring-cloud-functions-aws-maven-0.0.1-SNAPSHOT.jar
 functions:
   uppercase:
-    handler: com.example.demo.SpringBootLambdaHandler
+    handler: com.prashanth.spring.cloud.aws.SpringBootLambdaHandler
     environment:
       FUNCTION_NAME: uppercase
